@@ -17,16 +17,17 @@
 
   <pre id="content"></pre>
 
+  <script src="https://apis.google.com/js/api.js"></script>  
   <script type="text/javascript">
     // Client ID and API key from the Developer Console
-    var CLIENT_ID = '1089354984741-hh17q4238vj22pmkvqq548ph62qt7bcf.apps.googleusercontent.com';
+    var CLIENT_ID = '<API>';
 
     // Array of API discovery doc URLs for APIs used by the quickstart
     var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 
     // Authorization scopes required by the API; multiple scopes can be
     // included, separated by spaces.
-    var SCOPES = "https://www.googleapis.com/auth/calendar";
+    var SCOPES = "https://www.googleapis.com/auth/calendar";SCOPES = "https://www.googleapis.com/auth/calendar";
 
     var authorizeButton = document.getElementById('authorize-button');
     var signoutButton = document.getElementById('signout-button');
@@ -183,15 +184,11 @@
       addButton.onclick = req;
 
     }
+
+    handleClientLoad();
   </script>
+  <!-- <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()"> </script>  -->
 
-  <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
-
-  </script>
-
-  <script async defer src="https://apis.google.com/js/api.js">
-
-  </script>
 
 </body>
 

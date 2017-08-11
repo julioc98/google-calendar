@@ -1,0 +1,23 @@
+{
+  "name": "google-calendar",
+  "version": "1.0.0",
+  "description": "a test of google calendar api for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julioc98/google-calendar.git"
+  },
+  "author": "julioc9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julioc98/google-calendar/issues"
+  },
+  "homepage": "https://github.com/julioc98/google-calendar#readme",
+  "dependencies": {
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^20.1.0"
+  }
+}
